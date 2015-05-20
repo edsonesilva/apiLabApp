@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link data-require="jquery.mobile@1.4.0" data-semver="1.4.0" rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
+  <script data-require="jquery.mobile@1.4.0" data-semver="1.4.0" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script data-require="jquery.mobile@1.4.0" data-semver="1.4.0" src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <h2>Treinamento PhoneGap</h2>
+  <div id="pagMain" data-role="main" class="ui-content">
+    <ul data-role="listview" data-inset="true">
+      <li>
+        <a href="#" id="btnDialog">Diálogo</a>
+      </li>
+      <li>
+        <a href="#" id="btnCamera">Câmera</a>
+      </li>
+      <li>
+        <a href="#" id="btnBussola">Bússola</a>
+      </li>
+      <li>
+        <a href="#" id="btnAccel">Acelerômetro</a>
+      </li>
+      <li>
+        <a href="#" id="btnGPS">GPS</a>
+      </li>
+    </ul>
+  </div>
+  <div id="pagDialog">
+    <div id="dvDialogs">
+      <a href="#" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left btnVoltar">Voltar</a>
+      <div class="titulo">Javascript</div>
+      <a href="#" id="btnAlert" class="ui-btn ui-corner-all ui-icon-alert ui-btn-icon-left btnsLeft">Alert</a>
+      <a href="#" id="btnConfirm" class="ui-btn ui-corner-all ui-icon-check ui-btn-icon-left btnsRight">Confirm</a>
+      <div class="titulo">Nativo</div>
+      <a href="#" id="btnNativAlert" class="ui-btn ui-corner-all ui-icon-alert ui-btn-icon-left btnsLeft">Alert</a>
+      <a href="#" id="btnNativConfirm" class="ui-btn ui-corner-all ui-icon-check ui-btn-icon-left btnsRight">Confirm</a>
+      <a href="#" id="btnNativBeep" class="ui-btn ui-corner-all ui-icon-alert ui-btn-icon-left btnsLeft">Beep</a>
+      <a href="#" id="btnNativVibrate" class="ui-btn ui-corner-all ui-icon-check ui-btn-icon-left btnsRight">Vibrate</a>
+    </div>
+  </div>
+  <div id="pagCamera">
+    <a href="#" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left btnVoltar">Voltar</a>
+    <div class="dvCombo">
+      Origem:
+      <select id="cmbSource">
+        <option value="2">Álbum</option>
+        <option value="0">Biblioteca</option>
+        <option value="1">Câmera</option>
+      </select>
+    </div>
+    <div class="dvCombo">
+      Qualidade:
+      <select id="cmbQuality">
+        <option>25</option>
+        <option>50</option>
+        <option>75</option>
+        <option>100</option>
+      </select>
+    </div>
+    <div class="dvCombo">
+      Encoding:
+      <select id="cmbEnconding">
+        <option value="0">JPG</option>
+        <option value="1">PNG</option>
+      </select>
+    </div>
+    <div class="dvPhotCapture">
+      <a href="#" id="btnPhotoCapture" class="ui-btn ui-shadow ui-corner-all ui-icon-camera ui-btn-icon-notext ui-btn-inline"></a>
+    </div>
+    <div id="dvPhoto">
+      <img id="imgPhoto" />
+    </div>
+  </div>
+
+  <div id="pagBussola">
+    <a href="#" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left btnVoltar">Voltar</a>
+
+  </div>
+
+  <div id="pagAccel">
+    <a href="#" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left btnVoltar">Voltar</a>
+  </div>
+  
+  <div id="pagGPS">
+    <a href="#" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-left btnVoltar">Voltar</a>
+  </div>
+  
+  <script type="text/javascript" src="cordova.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+#pagMain {} #pagDialog {
+  display: none;
+  margin: auto;
+}
+
+#pagCamera {
+  display: none;
+  margin: auto;
+}
+
+#pagAccel {
+  display: none;
+  margin: auto;
+}
+
+#pagGPS {
+  display: none;
+  margin: auto;
+}
+
+.btnVoltar {
+  margin-bottom: 20px;
+}
+
+.btnsLeft {
+  width: 30%;
+  float: left;
+  margin-left: 10px;
+}
+
+.btnsRight {
+  width: 30%;
+  float: right;
+  margin-right: 10px;
+}
+
+#dvDialogs {
+  clear: both;
+  margin: auto;
+}
+
+.titulo {
+  clear: both;
+}
+
+.dvCombo {
+  margin: auto;
+  width: 40%;
+}
+
+#btnPhotoCapture {
+  padding:10px;
+}
+
+.dvPhotCapture {
+  width: 10%;
+  float: right;
+  margin: auto;
+  padding-right: 20px;
+}
+
+#dvPhoto {
+  width: 50%;
+  margin:auto;
+}
